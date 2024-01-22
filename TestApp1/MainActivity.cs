@@ -62,7 +62,6 @@ namespace TestApp1
             buttonMod.Click += OperationButton_Click;
             buttonSqrt.Click += SqrtButton_Click;
         }
-
         private void Button_Click(object sender, System.EventArgs e)
         {
             Button button = (Button)sender;
@@ -129,7 +128,6 @@ namespace TestApp1
             currentInput = currentNumber.ToString();
         }
 
-
         private void ClearButton_Click(object sender, System.EventArgs e)
         {
             currentInput = "";
@@ -152,7 +150,6 @@ namespace TestApp1
                 resultTextView.Text = "Error";
             }
         }
-
 
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
